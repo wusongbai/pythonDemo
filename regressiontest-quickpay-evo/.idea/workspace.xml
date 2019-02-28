@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be6c4925-a85a-4834-a68b-36bc178b3d23" name="Default" comment="" />
+    <ignored path="regressiontest-quickpay-evo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_cancel_order_py.coverage" NAME="py.test in test_cancel_order.py Coverage Results" MODIFIED="1536136504003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestClientVer_and_test_client_ver_null.coverage" NAME="py.test in TestClientVer and test_client_ver_null Coverage Results" MODIFIED="1535771368844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_purc_msgid_py.coverage" NAME="py.test in test_purc_msgid.py Coverage Results" MODIFIED="1536135976614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestQueryCases_and_test_client.coverage" NAME="py.test in TestQueryCases and test_client Coverage Results" MODIFIED="1542077847006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestOrigOrder_and_test_orig_order_special.coverage" NAME="py.test in TestOrigOrder and test_orig_order_special Coverage Results" MODIFIED="1536050907824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestTransTime_and_test_client.coverage" NAME="py.test in TestTransTime and test_client Coverage Results" MODIFIED="1538127951386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestClientVer_and_test_client_ver_null__1_.coverage" NAME="py.test in TestClientVer and test_client_ver_null (1) Coverage Results" MODIFIED="1536032162152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_paut_currency_py.coverage" NAME="py.test in test_paut_currency.py Coverage Results" MODIFIED="1536140783727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestBackUrl_and_test_backurl_null.coverage" NAME="py.test in TestBackUrl and test_backurl_null Coverage Results" MODIFIED="1535437184013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_purc_currency_py.coverage" NAME="py.test in test_purc_currency.py Coverage Results" MODIFIED="1536140713722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestTransTime_and_test_trans_time.coverage" NAME="py.test in TestTransTime and test_trans_time Coverage Results" MODIFIED="1538047594788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestNormal_and_test_normal.coverage" NAME="py.test in TestNormal and test_normal Coverage Results" MODIFIED="1535699384401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$response.coverage" NAME="response Coverage Results" MODIFIED="1538036465258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/component" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestPurcCases_and_test_goodslist.coverage" NAME="py.test in TestPurcCases and test_goodslist Coverage Results" MODIFIED="1542017852856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestQueryCases_and_test_msgid.coverage" NAME="py.test in TestQueryCases and test_msgid Coverage Results" MODIFIED="1542077897978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_cancel.coverage" NAME="py.test in cancel Coverage Results" MODIFIED="1536040658080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_query_client_ver_py.coverage" NAME="py.test in test_query_client_ver.py Coverage Results" MODIFIED="1535680929591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$request.coverage" NAME="request Coverage Results" MODIFIED="1535442833909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/component" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_cancel_client_ver_py.coverage" NAME="py.test in test_cancel_client_ver.py Coverage Results" MODIFIED="1535681054490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestMsgId_and_test_msgid_null.coverage" NAME="py.test in TestMsgId and test_msgid_null Coverage Results" MODIFIED="1536044191055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_paut_order_py.coverage" NAME="py.test in test_paut_order.py Coverage Results" MODIFIED="1536136959705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestQueryCases_and_test_order.coverage" NAME="py.test in TestQueryCases and test_order Coverage Results" MODIFIED="1542078069697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_purc_client_ver_py.coverage" NAME="py.test in test_purc_client_ver.py Coverage Results" MODIFIED="1535771071698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_query.coverage" NAME="py.test in query Coverage Results" MODIFIED="1536045500671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_paut_py.coverage" NAME="py.test in test_paut.py Coverage Results" MODIFIED="1538212535518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test.coverage" NAME="py.test in test Coverage Results" MODIFIED="1542015251284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestOrder_and_test_order_special.coverage" NAME="py.test in TestOrder and test_order_special Coverage Results" MODIFIED="1536137161754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestTransTime_and_test_mer_trans_time_null.coverage" NAME="py.test in TestTransTime and test_mer_trans_time_null Coverage Results" MODIFIED="1538048977966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_refd_trans_time_py.coverage" NAME="py.test in test_refd_trans_time.py Coverage Results" MODIFIED="1536133017855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestCancCases_and_test_mer_trans_time__1_.coverage" NAME="py.test in TestCancCases and test_mer_trans_time (1) Coverage Results" MODIFIED="1538299367000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestClientVer_and_test_client_ver_null__2_.coverage" NAME="py.test in TestClientVer and test_client_ver_null (2) Coverage Results" MODIFIED="1536042973662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_canc_py.coverage" NAME="py.test in test_canc.py Coverage Results" MODIFIED="1542079729032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestQueryCases_and_test_orig_order.coverage" NAME="py.test in TestQueryCases and test_orig_order Coverage Results" MODIFIED="1542078257535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$testdata.coverage" NAME="testdata Coverage Results" MODIFIED="1535428604412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestTermid_and_test_termid_special.coverage" NAME="py.test in TestTermid and test_termid_special Coverage Results" MODIFIED="1536129724293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_purc_py.coverage" NAME="py.test in test_purc.py Coverage Results" MODIFIED="1538300993909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_refd_order_py.coverage" NAME="py.test in test_refd_order.py Coverage Results" MODIFIED="1536137025914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestScancode_and_test_scancode_len33.coverage" NAME="py.test in TestScancode and test_scancode_len33 Coverage Results" MODIFIED="1536138941704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestTransAmt_and_test_transAmt_max.coverage" NAME="py.test in TestTransAmt and test_transAmt_max Coverage Results" MODIFIED="1536139844276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_paut_back_url_py.coverage" NAME="py.test in test_paut_back_url.py Coverage Results" MODIFIED="1536132371884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestTransTime_and_test_mer_trans_time.coverage" NAME="py.test in TestTransTime and test_mer_trans_time Coverage Results" MODIFIED="1538126250878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_purc_order_py.coverage" NAME="py.test in test_purc_order.py Coverage Results" MODIFIED="1536137016993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$cancel_message.coverage" NAME="cancel_message Coverage Results" MODIFIED="1542007000005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/cancel" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestTransAmt_and_test_transAmt_null.coverage" NAME="py.test in TestTransAmt and test_transAmt_null Coverage Results" MODIFIED="1535686086048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestPurcCases_and_test_client.coverage" NAME="py.test in TestPurcCases and test_client Coverage Results" MODIFIED="1542017834379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$refd_message.coverage" NAME="refd_message Coverage Results" MODIFIED="1542078864263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/refd" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_refd_client_ver_py.coverage" NAME="py.test in test_refd_client_ver.py Coverage Results" MODIFIED="1535696870914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestPaut_and_test_backurl.coverage" NAME="py.test in TestPaut and test_backurl Coverage Results" MODIFIED="1538202345879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$cancel.coverage" NAME="cancel Coverage Results" MODIFIED="1538188935034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/cancel" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_purc_scancode_py.coverage" NAME="py.test in test_purc_scancode.py Coverage Results" MODIFIED="1536139484780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_purc_normal_py.coverage" NAME="py.test in test_purc_normal.py Coverage Results" MODIFIED="1535698577656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestCancCases_and_test_mer_trans_time.coverage" NAME="py.test in TestCancCases and test_mer_trans_time Coverage Results" MODIFIED="1538220002118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_paut_client_ver_py.coverage" NAME="py.test in test_paut_client_ver.py Coverage Results" MODIFIED="1535698069597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_paut_trans_amt_py.coverage" NAME="py.test in test_paut_trans_amt.py Coverage Results" MODIFIED="1536139691200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_paut_pay_brand_py.coverage" NAME="py.test in test_paut_pay_brand.py Coverage Results" MODIFIED="1536138072223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestPurcCases_and_test_currency.coverage" NAME="py.test in TestPurcCases and test_currency Coverage Results" MODIFIED="1542080176687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestOrigOrder.coverage" NAME="py.test in TestOrigOrder Coverage Results" MODIFIED="1536051246196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_query_py.coverage" NAME="py.test in test_query.py Coverage Results" MODIFIED="1542010844635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestScancode_and_test_scancode_null.coverage" NAME="py.test in TestScancode and test_scancode_null Coverage Results" MODIFIED="1536139463514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestPurcCases.coverage" NAME="py.test in TestPurcCases Coverage Results" MODIFIED="1538299471140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestTransTime_and_test_msgid.coverage" NAME="py.test in TestTransTime and test_msgid Coverage Results" MODIFIED="1538128716188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestClientVer_and_test_client_ver.coverage" NAME="py.test in TestClientVer and test_client_ver Coverage Results" MODIFIED="1538126419604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_canc_trans_time_py.coverage" NAME="py.test in test_canc_trans_time.py Coverage Results" MODIFIED="1538189732183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_cancel_origin_order_py.coverage" NAME="py.test in test_cancel_origin_order.py Coverage Results" MODIFIED="1536051504846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_cancel_msgid_py.coverage" NAME="py.test in test_cancel_msgid.py Coverage Results" MODIFIED="1535511408612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_paut_msgid_py.coverage" NAME="py.test in test_paut_msgid.py Coverage Results" MODIFIED="1535618331425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestTransTime.coverage" NAME="py.test in TestTransTime Coverage Results" MODIFIED="1538048055521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_refd_trans_amt_py.coverage" NAME="py.test in test_refd_trans_amt.py Coverage Results" MODIFIED="1536140318678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$data.coverage" NAME="data Coverage Results" MODIFIED="1535427543783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/component" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_refd_py.coverage" NAME="py.test in test_refd.py Coverage Results" MODIFIED="1542079633811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestMsgId_and_test_msgid_special.coverage" NAME="py.test in TestMsgId and test_msgid_special Coverage Results" MODIFIED="1536136095966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_test_mertranstime_fail.coverage" NAME="py.test in test_mertranstime_fail Coverage Results" MODIFIED="1538037638620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/regressiontest-quickpay-evo$py_test_in_TestOrder.coverage" NAME="py.test in TestOrder Coverage Results" MODIFIED="1537407305887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="regressiontest-quickpay-evo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/response.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cancel/cancel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding>
+                <element signature="e#15#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/instance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/query/query.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+              <folding>
+                <element signature="e#15#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/refd/refd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
+              <folding>
+                <element signature="e#15#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_canc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1695">
+              <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_purc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-570">
+              <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/purc/purc_message.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_paut.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1815">
+              <caret line="124" column="77" selection-start-line="124" selection-start-column="77" selection-end-line="124" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#16#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/test_purc_normal.py" />
+        <option value="$PROJECT_DIR$/test/test_purc_order.py" />
+        <option value="$PROJECT_DIR$/test/test_purc_trans_amt.py" />
+        <option value="$PROJECT_DIR$/src/paut/paut_message.py" />
+        <option value="$PROJECT_DIR$/test/cancel/test_cancel_msgid.py" />
+        <option value="$PROJECT_DIR$/test/query/test_query_msgid.py" />
+        <option value="$PROJECT_DIR$/config/store.ini" />
+        <option value="$PROJECT_DIR$/test/cancel/test_cancel_order.py" />
+        <option value="$PROJECT_DIR$/test/query/test_query_termid.py" />
+        <option value="$PROJECT_DIR$/test/query/test_query_origin_order.py" />
+        <option value="$PROJECT_DIR$/test/cancel/test_cancel_origin_order.py" />
+        <option value="$PROJECT_DIR$/test/test_refd_origin_order.py" />
+        <option value="$PROJECT_DIR$/test/cancel/test_canc_trans_time.py" />
+        <option value="$PROJECT_DIR$/src/component/sign.py" />
+        <option value="$PROJECT_DIR$/test/test_cancel_termid.py" />
+        <option value="$PROJECT_DIR$/test/test_paut_termid.py" />
+        <option value="$PROJECT_DIR$/test/test_purc_termid.py" />
+        <option value="$PROJECT_DIR$/test/test_refd_termid.py" />
+        <option value="$PROJECT_DIR$/test/test_paut_back_url.py" />
+        <option value="$PROJECT_DIR$/test/test_purc_trans_time.py" />
+        <option value="$PROJECT_DIR$/test/test_paut_trans_time.py" />
+        <option value="$PROJECT_DIR$/test/test_refd_trans_time.py" />
+        <option value="$PROJECT_DIR$/test/test_refd_order.py" />
+        <option value="$PROJECT_DIR$/test/test_purc_scancode.py" />
+        <option value="$PROJECT_DIR$/test/test_paut_trans_amt.py" />
+        <option value="$PROJECT_DIR$/test/test_refd_msgid.py" />
+        <option value="$PROJECT_DIR$/test/test_query_order.py" />
+        <option value="$PROJECT_DIR$/test/test_query_client_ver.py" />
+        <option value="$PROJECT_DIR$/test/test_query_origin_order.py" />
+        <option value="$PROJECT_DIR$/test/test_query_termid.py" />
+        <option value="$PROJECT_DIR$/test/test_query_msgid.py" />
+        <option value="$PROJECT_DIR$/test/test_purc_msgid.py" />
+        <option value="$PROJECT_DIR$/test/test_paut_msgid.py" />
+        <option value="$PROJECT_DIR$/test/test_cancel_msgid.py" />
+        <option value="$PROJECT_DIR$/src/paut/paut.py" />
+        <option value="$PROJECT_DIR$/test/test_canc_trans_time.py" />
+        <option value="$PROJECT_DIR$/test/test_canc.py" />
+        <option value="$PROJECT_DIR$/test/test_refd.py" />
+        <option value="$PROJECT_DIR$/src/component/basemessage.py" />
+        <option value="$PROJECT_DIR$/src/purc/purc.py" />
+        <option value="$PROJECT_DIR$/src/query/query_message.py" />
+        <option value="$PROJECT_DIR$/src/cancel/cancel_message.py" />
+        <option value="$PROJECT_DIR$/test/test_query.py" />
+        <option value="$PROJECT_DIR$/src/query/query.py" />
+        <option value="$PROJECT_DIR$/src/cancel/cancel.py" />
+        <option value="$PROJECT_DIR$/src/refd/refd.py" />
+        <option value="$PROJECT_DIR$/src/component/response.py" />
+        <option value="$PROJECT_DIR$/src/component/instance.py" />
+        <option value="$PROJECT_DIR$/src/component/request.py" />
+        <option value="$PROJECT_DIR$/test/test_paut.py" />
+        <option value="$PROJECT_DIR$/test/test_purc.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyUnboundLocalVariableInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\duty\autoTest\regressiontest-quickpay-evo\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\duty\autoTest\regressiontest-quickpay-evo\src\component" />
+      <recent name="E:\duty\autoTest\regressiontest-quickpay-evo\test\query" />
+      <recent name="E:\duty\autoTest\regressiontest-quickpay-evo\src\query" />
+      <recent name="E:\duty\autoTest\regressiontest-quickpay-evo\test\cancel" />
+      <recent name="E:\duty\autoTest\regressiontest-quickpay-evo\src\cancel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.py.test in TestPurcCases and test_currency">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regressiontest-quickpay-evo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="refd_message" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="regressiontest-quickpay-evo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/refd" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/refd/refd_message.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="py.test in TestPurcCases and test_currency" type="tests" factoryName="py.test" temporary="true">
+      <module name="regressiontest-quickpay-evo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test/test_purc.py" />
+      <option name="keywords" value="TestPurcCases and test_currency" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <module name="regressiontest-quickpay-evo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_legacyInformationCopiedToNew" value="true" />
+      <option name="_new_target" value="&quot;test.test_purc.TestPurcCases.test_currency&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="py.test in TestQueryCases and test_orig_order" type="tests" factoryName="py.test" temporary="true">
+      <module name="regressiontest-quickpay-evo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test/test_query.py" />
+      <option name="keywords" value="TestQueryCases and test_orig_order" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <module name="regressiontest-quickpay-evo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_legacyInformationCopiedToNew" value="true" />
+      <option name="_new_target" value="&quot;test.test_query.TestQueryCases.test_orig_order&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="py.test in test_canc.py" type="tests" factoryName="py.test" temporary="true">
+      <module name="regressiontest-quickpay-evo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test/test_canc.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <module name="regressiontest-quickpay-evo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_legacyInformationCopiedToNew" value="true" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_canc.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="py.test in test_refd.py" type="tests" factoryName="py.test" temporary="true">
+      <module name="regressiontest-quickpay-evo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test/test_refd.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <module name="regressiontest-quickpay-evo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_legacyInformationCopiedToNew" value="true" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_refd.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.refd_message" />
+      <item itemvalue="Python tests.py.test in TestQueryCases and test_orig_order" />
+      <item itemvalue="Python tests.py.test in test_canc.py" />
+      <item itemvalue="Python tests.py.test in test_refd.py" />
+      <item itemvalue="Python tests.py.test in TestPurcCases and test_currency" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.py.test in TestPurcCases and test_currency" />
+        <item itemvalue="Python tests.py.test in test_canc.py" />
+        <item itemvalue="Python tests.py.test in test_refd.py" />
+        <item itemvalue="Python.refd_message" />
+        <item itemvalue="Python tests.py.test in TestQueryCases and test_orig_order" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be6c4925-a85a-4834-a68b-36bc178b3d23" name="Default" comment="" />
+      <created>1535422531838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535422531838</updated>
+      <workItem from="1551322615833" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_TestPurcCases_and_test_currency - 2018.11.13 at 11h 36m 22s.xml">
+      <configuration name="py.test in TestPurcCases and test_currency" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestQueryCases_and_test_client - 2018.11.13 at 10h 32m 53s.xml">
+      <configuration name="py.test in TestQueryCases and test_client" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestQueryCases_and_test_client - 2018.11.13 at 10h 57m 30s.xml">
+      <configuration name="py.test in TestQueryCases and test_client" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestQueryCases_and_test_msgid - 2018.11.13 at 10h 58m 24s.xml">
+      <configuration name="py.test in TestQueryCases and test_msgid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestQueryCases_and_test_order - 2018.11.13 at 11h 01m 20s.xml">
+      <configuration name="py.test in TestQueryCases and test_order" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestQueryCases_and_test_orig_order - 2018.11.13 at 11h 04m 28s.xml">
+      <configuration name="py.test in TestQueryCases and test_orig_order" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_canc_py - 2018.11.13 at 11h 12m 25s.xml">
+      <configuration name="py.test in test_canc.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_canc_py - 2018.11.13 at 11h 28m 53s.xml">
+      <configuration name="py.test in test_canc.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_refd_py - 2018.11.13 at 11h 14m 37s.xml">
+      <configuration name="py.test in test_refd.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_refd_py - 2018.11.13 at 11h 27m 17s.xml">
+      <configuration name="py.test in test_refd.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21191554" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4564732" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26004463" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3950893" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3567447" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.15959822" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3325893" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42299107" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3567447" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/component/response.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/cancel/cancel.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/cancel/cancel.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/refd/refd.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/query/query.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/query/query.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_query.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_query.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_query.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_query.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/component/instance.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/query/query.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/component/instance.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/dev/python/src/untitled2/sha256new.py" />
+    <entry file="file://$PROJECT_DIR$/src/component/sign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/refd/refd_message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paut/paut_message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paut/paut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_refd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+          <folding>
+            <element signature="e#15#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/store.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/dev/python27/Lib/site-packages/py/_builtin.py" />
+    <entry file="file://D:/dev/python27/Lib/site-packages/_pytest/assertion/rewrite.py" />
+    <entry file="file://D:/dev/python27/Lib/site-packages/py/_path/local.py" />
+    <entry file="file://D:/dev/python27/Lib/site-packages/_pytest/fixtures.py" />
+    <entry file="file://D:/dev/python27/Lib/site-packages/_pytest/runner.py" />
+    <entry file="file://D:/dev/python27/Lib/site-packages/pluggy/callers.py" />
+    <entry file="file://D:/dev/python27/Lib/site-packages/pluggy/manager.py" />
+    <entry file="file://D:/dev/python27/Lib/site-packages/pluggy/hooks.py" />
+    <entry file="file://D:/dev/python27/Lib/site-packages/_pytest/main.py" />
+    <entry file="file://D:/dev/python27/Lib/site-packages/_pytest/python.py" />
+    <entry file="file://$PROJECT_DIR$/src/component/basemessage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cancel/cancel_message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/purc/purc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/query_message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#15#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cancel/cancel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#15#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/instance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#15#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/refd/refd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
+          <folding>
+            <element signature="e#15#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_canc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/purc/purc_message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_paut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="124" column="77" selection-start-line="124" selection-start-column="77" selection-end-line="124" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_purc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
